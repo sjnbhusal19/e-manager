@@ -1,0 +1,136 @@
+{
+    "Admin": [
+      {
+        "id": 1,
+        "title": "Dashboard",
+        "icon": "MdOutlineSpaceDashboard",
+        "link": "/adminDashboard"
+      },
+      {
+        "id": 2,
+        "title": "Calendar",
+        "icon": "IoCalendarOutline",
+        "link": "/calendar"
+      },
+      {
+        "id": 3,
+        "title": "Courses",
+        "icon": "FaLaptopCode",
+        "subSidebar": [
+            { "id": 1, "title": "Add Course", "link": "/addCourse" },
+            { "id": 2, "title": "Manage Course", "link": "/manageCourse" }
+          ]
+      },
+      {
+        "id": 4,
+        "title": "Users",
+        "icon": "LuUsers",
+        "subSidebar": [
+          { "id": 1, "title": "User List", "link": "/userList" },
+          { "id": 2, "title": "Add User", "link": "/addUser" },
+          { "id": 3, "title": "Manage User", "link": "/manageUser" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Orders",
+        "icon": "GrTransaction",
+        "subSidebar": [
+            { "id": 1, "title": "Pending Order", "link": "/pendingOrder" },
+            { "id": 2, "title": "Order List", "link": "/orderList" },
+            { "id": 3, "title": "Manage Order", "link": "/manageOrder" }
+          ]
+      },
+      {
+        "id": 6,
+        "title": "Reports",
+        "icon": "TbReportSearch",
+        "subSidebar": [
+          { "id": 1, "title": "User Report", "link": "/userReport" },
+          { "id": 2, "title": "Sales Report", "link": "/salesReport" },
+          { "id": 3, "title": "Product Report", "link": "/productReport" }
+
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Settings",
+        "icon": "MdOutlineSettings",
+        "link": "/settings"
+      },
+      {
+        "id": 8,
+        "title": "Billings",
+        "icon": "BsCashCoin",
+        "link": "/billings"
+      },
+      {
+        "id": 9,
+        "title": "Log Out",
+        "icon": "CiLogout",
+        "link": "/"
+      }
+    ],
+    "Teacher": [
+      {
+        "id": 1,
+        "title": "Dashboard",
+        "icon": "MdOutlineSpaceDashboard",
+        "link": "/teacherDashboard"
+      },
+      {
+        "id": 2,
+        "title": "Calendar",
+        "icon": "IoCalendarOutline",
+        "link": "/calendar"
+      },
+      {
+        "id": 3,
+        "title": "Students",
+        "icon": "PiStudent",
+        "subSidebar": [
+          { "id": 1, "title": "Manage Student", "link": "/manageStudent" },
+          { "id": 2, "title": "Add Student" , "link": "/addStudent" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Class",
+        "icon": "SiGoogleclassroom",
+        "subSidebar": [
+          { "id": 1, "title": "Syllabus", "link": "/syllabus" },
+          { "id": 2, "title": "Assignment" , "link": "/assignment" },
+          { "id": 3, "title": "Notes", "link": "/notes" },
+          { "id": 4, "title": "Attendances", "link": "/attendances" }
+
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Reports",
+        "icon": "TbReportSearch",
+        "link": "/reports"
+      },
+     
+      {
+        "id": 6,
+        "title": "Leave",
+        "icon": "MdCoPresent",
+        "link": "/leave"
+      },
+      {
+        "id": 7,
+        "title": "Settings",
+        "icon": "MdOutlineSettings",
+        "link": "/settings"
+      },
+      {
+        "id": 9,
+        "title": "Log Out",
+        "icon": "CiLogout",
+        "link": "/"
+      }
+
+    ]
+    
+  }
