@@ -1,8 +1,12 @@
 import React from 'react'
+import MainLayout from '../../layout/mainlayout'
 
 const PendingOrder = () => {
   return (
-    <div>PendingOrder</div>
+    <MainLayout>
+            <div>PendingOrder</div>
+
+    </MainLayout>
   )
 }
 

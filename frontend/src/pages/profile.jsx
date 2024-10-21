@@ -1,12 +1,13 @@
 import React from 'react'
 import MainLayout from '../layout/mainlayout'
 
-const Billings = () => {
+const Profile = () => {
   return (
     <MainLayout>
-    <div>Billings</div>
+    <div>Profile</div>
+
     </MainLayout>
   )
 }
 
-export default Billings
+export default Profile

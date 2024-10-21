@@ -25,6 +25,7 @@ import SalesReports from './pages/admin/salesReports';
 import ProductReport from './pages/admin/productReport';
 import Settings from './pages/settings';
 import Billings from './pages/billings';
+import Profile from './pages/profile';
 
 
 
@@ -107,6 +108,10 @@ const router = createBrowserRouter([
   {
     path: "/billings",
     element: <Billings />
+  },
+  {
+    path: "/profile",
+    element: <Profile />
   },
 ]);
 

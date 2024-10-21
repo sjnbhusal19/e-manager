@@ -1,8 +1,12 @@
 import React from 'react'
+import MainLayout from '../../layout/mainlayout'
 
 const AddCourse = () => {
   return (
-    <div>AddCourse</div>
+    <MainLayout>
+            <div>AddCourse</div>
+
+    </MainLayout>
   )
 }
 
