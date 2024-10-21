@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import AboutProject from './pages/about';
 import App from './App';
+import AdminDashboard from './pages/admin/adminDashboard';
+import TeacherDashboard from './pages/teacher/teacherDashboard';
 
 
 
@@ -29,10 +31,17 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />
   },
-
   {
     path: "/aboutProject",
     element: <AboutProject />
+  },
+  {
+    path: "/adminDashboard",
+    element: <AdminDashboard />
+  },
+  {
+    path: "/teacherDashboard",
+    element: <TeacherDashboard />
   },
 ]);
 
